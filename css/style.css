@@ -8,6 +8,12 @@
   border: 0;
 }
 
+input[type=submit] {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+
 *,
 *:before,
 *:after {
@@ -3143,7 +3149,7 @@ body {
   }
 
   .retro::before {
-    left: 48;
+    left: 48px;
     top: -22px;
   }
 
@@ -3524,7 +3530,7 @@ body {
   }
 
   .retro::before {
-    left: 48;
+    left: 48px;
     top: -22px;
   }
 
