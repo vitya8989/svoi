@@ -8,12 +8,6 @@
   border: 0;
 }
 
-input[type=submit] {
--webkit-appearance: none;
--moz-appearance: none;
-appearance: none;
-}
-
 *,
 *:before,
 *:after {
