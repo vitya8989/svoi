@@ -981,57 +981,53 @@ body {
 }
 
 .styleDance::before {
-  content: '';
-  position: absolute;
   width: 900px;
   height: 538px;
   left: 375px;
   top: -47px;
   background: url("../img/Vector-0.svg") 0 -50px no-repeat;
-  z-index: 20;
 }
 
 .itsRock::before {
-  content: '';
-  position: absolute;
   width: 457px;
   height: 487px;
   left: 105px;
   top: -120px;
   background: url("../img/Vector-4.svg") no-repeat;
-  z-index: 20;
 }
 
 .heatOnScene::before {
-  content: '';
-  position: absolute;
   width: 524px;
   height: 475px;
   left: 577px;
   top: -68px;
   background: url("../img/Vector-3.svg") 0 -120px no-repeat;
-  z-index: 20;
 }
 
 .retro::before {
-  content: '';
-  position: absolute;
   width: 577px;
   height: 502px;
   left: 0;
   top: -25px;
   background: url("../img/Vector-2.svg") no-repeat;
-  z-index: 20;
 }
 
 .slowDance::before {
-  content: '';
-  position: absolute;
   width: 709px;
   height: 459px;
   left: 542px;
   top: 0;
   background: url("../img/Vector-1.svg") 0 -150px no-repeat;
+}
+
+.styleDance::before,
+.itsRock::before,
+.heatOnScene::before,
+.retro::before,
+.slowDance::before {
+  content: '';
+  position: absolute;
+  pointer-events: none;
   z-index: 20;
 }
 
